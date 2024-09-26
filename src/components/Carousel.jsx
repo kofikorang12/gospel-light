@@ -2,11 +2,11 @@
 
 // const images = [
 //   {
-//     src: "src/assets/images/4f30b46e-carousel-header-1024x441.png",
+//     src: "src/assets4f30b46e-carousel-header-1024x441.png",
 //     description: "Our Mission",
 //   },
-//   { src: "src/assets/images/img2.png", description: "Our Vision" },
-//   { src: "src/assets/images/img3.png", description: "Join Us" },
+//   { src: "src/assetsimg2.png", description: "Our Vision" },
+//   { src: "src/assets/img3.png", description: "Join Us" },
 // ];
 
 // const Carousel = () => {
@@ -49,14 +49,14 @@ import { useState, useEffect } from "react";
 // Dummy data for the carousel slides
 const slides = [
   {
-    src: "src/assets/images/sof1.jpg",
+    src: "src/assets/sof1.jpg",
     alt: "Slide 1",
     transition: "fade",
     title: "Welcome to Gospel Light Mission",
     description: "Join us for worship this and every Sunday.",
   },
   {
-    src: "src/assets/images/great.jpg",
+    src: "src/assets/great.jpg",
     alt: "Slide 2",
     transition: "slide",
     title: "Our Mission",
@@ -64,7 +64,7 @@ const slides = [
       "To maintain the centrality of the Word of God and, through the enablement of the Holy Spirit, pursue a holistic ministry so as to bring all creation to glorify God.",
   },
   {
-    src: "src/assets/images/sof3.jpg",
+    src: "src/assets/sof3.jpg",
     alt: "Slide 3",
     transition: "zoom",
     title: "Join Our Community",

@@ -9,23 +9,44 @@ import Ministries from "./pages/Ministries";
 import Media from "./pages/Media";
 import ContactUs from "./pages/ContactUs";
 
-const App = () => {
+// const App = () => {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <Navbar />
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/about" element={<AboutUs />} />
+//           <Route path="/leadership" element={<Leadership />} />
+//           <Route path="/ministries" element={<Ministries />} />
+//           <Route path="/media" element={<Media />} />
+//           <Route path="/contact" element={<ContactUs />} />
+//         </Routes>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+// import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
+function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/leadership" element={<Leadership />} />
-          <Route path="/ministries" element={<Ministries />} />
-          <Route path="/media" element={<Media />} />
-          <Route path="/contact" element={<ContactUs />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/leadership" element={<Leadership />} />
+        <Route path="/ministries" element={<Ministries />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/contact" element={<ContactUs />} />
+      </Routes>
+      <Footer />
     </Router>
   );
-};
+}
 
 export default App;

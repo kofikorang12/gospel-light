@@ -9,22 +9,23 @@ const allNewsArticles = [
     date: "Sept 10, 2023",
   },
   {
+    title: "Miss Akwaaba Thanksgoving Service",
+    content: "A new sermon series has been announced...",
+    img: "src/assets/images/akw.jpg",
+    date: "Jul 18, 2022",
+  },
+  {
     title: "Annual Youth Conference Held",
     content: "The annual youth conference brought together young minds...",
     img: "src/assets/images/img5.jpg",
     date: "Aug 22, 2023",
   },
+
   {
     title: "New Sermon Series Announced",
     content: "A new sermon series has been announced...",
     img: "src/assets/images/img5.jpg",
     date: "Jul 1, 2023",
-  },
-  {
-    title: "Miss Akwaaba",
-    content: "A new sermon series has been announced...",
-    img: "src/assets/images/img5.jpg",
-    date: "Jul 18, 2022",
   },
   // Add more articles here...
 ];

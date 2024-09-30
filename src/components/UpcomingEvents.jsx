@@ -3,12 +3,12 @@
 const events = [
   {
     title: "Christmas Carol",
-    date: "December 24, 2024",
+    date: "December 21, 2024",
     description: "Join us for a special evening of carols and celebration.",
   },
   {
-    title: "New Year Service",
-    date: "January 1, 2025",
+    title: "Watch Night Service",
+    date: "December 31, 2024",
     description: "Welcome the new year with worship and fellowship.",
   },
   {

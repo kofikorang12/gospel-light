@@ -1,25 +1,4 @@
-// // import React from "react";
 
-// const Sermons = () => {
-//   return (
-//     <div className="w-full md:w-full p-4">
-//       <h2 className="text-3xl font-bold mb-4">Sermons</h2>
-//       <div className="relative pb-[75%] h-0">
-//         {" "}
-//         {/* Increased size for video */}
-//         <iframe
-//           className="absolute top-0 left-0 w-full h-full"
-//           src="https://www.youtube.com/embed/example"
-//           title="YouTube Sermon"
-//           allow="autoplay; encrypted-media"
-//           allowFullScreen
-//         ></iframe>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Sermons;
 
 import React, { useState } from "react";
 

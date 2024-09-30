@@ -1,48 +1,4 @@
-// import { useState, useEffect } from "react";
 
-// const images = [
-//   {
-//     src: "src/assets4f30b46e-carousel-header-1024x441.png",
-//     description: "Our Mission",
-//   },
-//   { src: "src/assetsimg2.png", description: "Our Vision" },
-//   { src: "src/assets/img3.png", description: "Join Us" },
-// ];
-
-// const Carousel = () => {
-//   const [current, setCurrent] = useState(0);
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setCurrent((current) => (current + 1) % images.length);
-//     }, 5000); // Change image every 5 seconds
-//     return () => clearInterval(interval);
-//   }, []);
-
-//   return (
-//     <div className="relative w-full h-80 bg-gray-300">
-//       {images.map((image, index) => (
-//         <div
-//           key={index}
-//           className={`absolute w-full h-full transition-opacity duration-1000 ${
-//             index === current ? "opacity-100" : "opacity-0"
-//           }`}
-//         >
-//           <img
-//             src={image.src}
-//             alt={image.description}
-//             className="w-full h-full object-cover"
-//           />
-//           <div className="absolute bottom-0 left-0 p-6 bg-black bg-opacity-50 text-white">
-//             <h2 className="text-2xl">{image.description}</h2>
-//           </div>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Carousel;
 
 import { useState, useEffect } from "react";
 

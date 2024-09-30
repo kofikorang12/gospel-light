@@ -1,59 +1,23 @@
-// const leaders = [
-//   {
-//     name: "John Doe",
-//     role: "General Council",
-//     img: "src/assets/images/img2.png",
-//   },
-//   { name: "Jane Doe", role: "Executives", img: "/leader2.jpg" },
-//   { name: "Jane Doe", role: "Executives", img: "/leader2.jpg" },
-//   { name: "Jane Doe", role: "Executives", img: "/leader2.jpg" },
-//   // Add more leaders
-// ];
-
-// const Leadership = () => {
-//   return (
-//     <div className="pt-24 pb-12">
-//       {" "}
-//       {/* Added top padding to prevent overlap with navbar */}
-//       <div className="container mx-auto">
-//         <h1 className="text-4xl font-bold text-center mb-8">Leadership</h1>
-//         <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
-//           {leaders.map((leader, idx) => (
-//             <div
-//               key={idx}
-//               className="flex items-center space-x-4 p-10 bg-white shadow-md rounded-lg transform transition-all duration-300 hover:scale-105 hover:bg-blue-100 hover:shadow-xl hover:animate-bounce-100"
-//             >
-//               <img
-//                 src={leader.img}
-//                 alt={leader.name}
-//                 className="w-32 h-32 rounded-full"
-//               />
-//               <div>
-//                 <h2 className="text-xl font-bold">{leader.name}</h2>
-//                 <p>{leader.role}</p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Leadership;
-
 import { useEffect } from "react";
 import AOS from "aos"; // Import AOS for animations
 import "aos/dist/aos.css"; // Import AOS CSS
 
 const leaders = [
   {
-    name: "John Doe",
+    name: "Rev. Ebenezer Armah-Oblie",
     role: "General Overseer",
     img: "src/assets/images/sofo.jpg",
   },
-  { name: "Jane Doe", role: "Executives", img: "src/assets/images/img3.png" },
-  { name: "Jane Doe", role: "Executives", img: "/leader2.jpg" },
+  {
+    name: "Mrs. Catherine Armah-Oblie",
+    role: "Head Of the Women fellowship",
+    img: "src/assets/sofmaam.jpg",
+  },
+  {
+    name: "Std. Moris Amatey ",
+    role: "Youth President",
+    img: "src/assets/images/img7.jpg",
+  },
   { name: "Jane Doe", role: "Executives", img: "/leader2.jpg" },
   // Add more leaders as needed
 ];

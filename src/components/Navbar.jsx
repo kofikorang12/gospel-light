@@ -1,5 +1,3 @@
-
-
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -61,7 +59,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src="src/assets/images/logo.JPG"
+            src="src/assets/images/logo1.png"
             alt="Church Logo"
             className="h-10 w-auto mr-2 rounded-full"
           />

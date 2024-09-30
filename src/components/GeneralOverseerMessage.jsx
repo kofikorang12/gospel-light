@@ -10,6 +10,8 @@ const GeneralOverseerMessage = () => {
       />
       <div className="w-full md:w-2/3 bg-white p-6 rounded-lg shadow-lg">
         <p>
+          <p className="font-medium text-center">Rev. Ebenezer Armah-Oblie</p>
+          {/* <br /> */}
           Our vision is to spread love and faith throughout the world. We
           believe in nurturing the spiritual growth of individuals by providing
           a community of support and guidance. Our mission is to reach out to

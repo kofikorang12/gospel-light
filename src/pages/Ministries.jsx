@@ -5,16 +5,17 @@ import MinistryCard from "../components/MinistryCard"; // Import the reusable Mi
 
 const ministries = [
   {
+    title: "Youth Ministry",
+    description: "Our youth ministry is aimed at guiding the next generation.",
+    img: "src/assets/images/img7.jpg",
+  },
+  {
     title: "Children Ministry",
     description:
       "We focus on building the foundation of faith for children. lished fact that a  like",
     img: "src/assets/images/img5.jpg",
   },
-  {
-    title: "Youth Ministry",
-    description: "Our youth ministry is aimed at guiding the next generation.",
-    img: "src/assets/images/img5.jpg",
-  },
+
   {
     title: "Junior Youth Ministry",
     description: "Helping young teens find their purpose in faith.",
@@ -28,7 +29,7 @@ const ministries = [
   {
     title: "Men’s Ministry",
     description: "Encouraging men to be leaders in faith and family.",
-    img: "src/assets/images/img5.jpg",
+    img: "src/assets/images/eld-riky.jpg",
   },
   {
     title: "Evangelism Ministry",

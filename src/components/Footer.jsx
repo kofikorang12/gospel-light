@@ -1,6 +1,7 @@
 // import React from "react";
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"; // Icons
 import { FiX } from "react-icons/fi"; // Icon for X (formerly Twitter)
+import Media from "../pages/Media.jsx";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear(); // Get the current year dynamically
@@ -14,7 +15,7 @@ const Footer = () => {
           {/* Section 1: Logo and Slogan */}
           <div className="flex flex-col space-y-4 items-center">
             <img
-              src="src/assets/images/logo.jpg"
+              src="src/assets/images/logo1.png"
               alt="Church Logo"
               className="w-24 h-auto"
             />
@@ -31,17 +32,17 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-red-500">Useful Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/gallery" className="hover:text-red-500 transition">
+                <a href="/Media" className="hover:text-red-500 transition">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="/activities" className="hover:text-red-500 transition">
+                <a href="/Media" className="hover:text-red-500 transition">
                   Church Activities
                 </a>
               </li>
               <li>
-                <a href="/videos" className="hover:text-red-500 transition">
+                <a href="/Media" className="hover:text-red-500 transition">
                   Videos
                 </a>
               </li>

@@ -108,10 +108,12 @@ const ContactPage = () => {
               data-aos="fade-right" // AOS animation on location
             >
               <h2 className="text-2xl font-bold mb-4">Our Location</h2>
-              <p className="text-lg mb-2">
+              <p className="text-lg mb-2 font-medium">
                 Aboma-Teshie, Behind Presby, Accra-Ghana
               </p>
-              <p className="text-lg mb-4">Phone: +123 456 7890</p>
+              <p className="text-lg mb-4 font-medium">
+                Phone: +233 (0) 573 942 475
+              </p>
               <iframe
                 title="Location Map"
                 className="w-full h-64 rounded-lg"

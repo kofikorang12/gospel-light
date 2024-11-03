@@ -3,7 +3,7 @@
 const events = [
   {
     title: "Christmas Carol",
-    date: "December 21, 2024",
+    date: "December 24, 2024",
     description: "Join us for a special evening of carols and celebration.",
   },
   {

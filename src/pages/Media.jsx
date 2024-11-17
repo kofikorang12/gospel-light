@@ -15,10 +15,10 @@ const Media = () => {
         return <Sermons />;
       case "gallery":
         return <Gallery />;
-      case "events":
-        return <div>Events Coming Soon! 💒</div>;
-      case "videos":
-        return <div>Videos Coming Soon! 💒</div>;
+      // case "events":
+      //   return <div>Events Coming Soon! 💒</div>;
+      // case "videos":
+      //   return <div>Videos Coming Soon! 💒</div>;
       default:
         return <NewsArticles />;
     }

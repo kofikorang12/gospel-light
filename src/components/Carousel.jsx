@@ -1,18 +1,16 @@
-
-
 import { useState, useEffect } from "react";
 
 // Dummy data for the carousel slides
 const slides = [
   {
-    src: "src/assets/sof1.jpg",
+    src: "public/images/sof1.jpg",
     alt: "Slide 1",
     transition: "fade",
     title: "Welcome to Gospel Light Mission",
     description: "Join us for worship this and every Sunday.",
   },
   {
-    src: "src/assets/great.jpg",
+    src: "public/images/great.jpg",
     alt: "Slide 2",
     transition: "slide",
     title: "Our Mission",
@@ -20,7 +18,7 @@ const slides = [
       "To maintain the centrality of the Word of God and, through the enablement of the Holy Spirit, pursue a holistic ministry so as to bring all creation to glorify God.",
   },
   {
-    src: "src/assets/sof3.jpg",
+    src: "public/images/sof3.jpg",
     alt: "Slide 3",
     transition: "zoom",
     title: "Join Our Community",

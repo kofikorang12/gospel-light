@@ -44,7 +44,7 @@ const Sidebar = ({ selectedSection, onSelectSection }) => {
             <div className="absolute left-0 top-1/2 transform -translate-x-6 -translate-y-1/2 w-3 h-3 bg-red-700 rounded-full"></div>
           )}
         </li>
-        <li className="relative">
+        {/* <li className="relative">
           <button
             onClick={() => onSelectSection("events")}
             className={`text-lg font-semibold ${
@@ -69,7 +69,7 @@ const Sidebar = ({ selectedSection, onSelectSection }) => {
           {selectedSection === "videos" && (
             <div className="absolute left-0 top-1/2 transform -translate-x-6 -translate-y-1/2 w-3 h-3 bg-red-700 rounded-full"></div>
           )}
-        </li>
+        </li> */}
       </ul>
     </div>
   );

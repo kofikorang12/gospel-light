@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 
 const Sermons = () => {
@@ -37,15 +35,15 @@ const Sermons = () => {
               d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
             ></path>
           </svg>
-          <p className="text-lg font-semibold text-gray-500">Loading...</p>
+          <p className="text-lg font-semibold text-gray-500">Pls Wait...</p>
         </div>
       )}
 
       {/* Iframe Content */}
-      <div className="relative pb-[75%] h-0">
+      <div className="relative pb-[55%] h-0">
         <iframe
           className="absolute top-0 left-0 w-full h-full"
-          src="https://www.youtube.com/embed/example"
+          src="https://www.youtube.com/embed/UC_qTlrgEwcl7tkmQz-gfqMA"
           title="YouTube Sermon"
           allow="autoplay; encrypted-media"
           allowFullScreen

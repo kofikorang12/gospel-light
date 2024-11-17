@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Section 1: Logo and Slogan */}
           <div className="flex flex-col space-y-4 items-center">
             <img
-              src="src/assets/images/logo1.png"
+              src="public/images/logo1.png"
               alt="Church Logo"
               className="w-24 h-auto"
             />

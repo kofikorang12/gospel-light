@@ -23,7 +23,7 @@ const ContactPage = () => {
     <div
       className="pt-24 pb-12 bg-cover bg-center min-h-screen"
       style={{
-        backgroundImage: 'url("src/assets/images/watch night.jpg")', // Full-page background image
+        backgroundImage: 'url("public/images/watch night.jpg")', // Full-page background image
       }}
     >
       <div className="container mx-auto px-4">
@@ -129,7 +129,7 @@ const ContactPage = () => {
               data-aos="fade-left" // AOS animation on picture
             >
               <img
-                src="src/assets/images/great.jpg"
+                src="public/images/great.jpg"
                 alt="Church Location"
                 className="w-full h-64 object-cover"
               />

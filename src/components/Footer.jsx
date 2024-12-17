@@ -1,7 +1,7 @@
 // import React from "react";
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"; // Icons
 import { FiX } from "react-icons/fi"; // Icon for X (formerly Twitter)
-import Media from "../pages/Media.jsx";
+// import Media from "../pages/Media.jsx";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear(); // Get the current year dynamically

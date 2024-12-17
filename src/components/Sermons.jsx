@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Sermons = () => {
   const [isLoading, setIsLoading] = useState(true); // State to manage loading status

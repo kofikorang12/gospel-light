@@ -6,22 +6,22 @@ const leaders = [
   {
     name: "Rev. Ebenezer Armah-Oblie",
     role: "General Overseer",
-    img: "public/images/sofo-lead.jpg",
+    img: "/images/sofo-lead.jpg",
   },
   {
     name: "Mrs. Catherine Armah-Oblie",
     role: "Head Of the Women fellowship",
-    img: "public/images/sofomaame-lead.jpg",
+    img: "/images/sofomaame-lead.jpg",
   },
   {
     name: "Std. Moris Amatey ",
     role: "Youth President",
-    img: "public/images/img7.jpg",
+    img: "/images/img7.jpg",
   },
   {
     name: "Jane Doe",
     role: "President of Womens Fellowship ",
-    img: "public/.jpg",
+    img: "/images/sofomaame-lead.jpg",
   },
   // Add more leaders as needed
 ];

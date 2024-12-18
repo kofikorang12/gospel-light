@@ -4,7 +4,7 @@ const GeneralOverseerMessage = () => {
   return (
     <div className="flex flex-col md:flex-row items-center">
       <img
-        src="public/images/sofo.jpg"
+        src="/images/sofo.jpg"
         alt="General Overseer"
         className="w-full md:w-1/3 rounded-lg mb-4 md:mb-0 md:mr-6"
       />

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -59,7 +60,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src="src/assets/images/logo1.png"
+            src="/images/logo1.png"
             alt="Church Logo"
             className="h-10 w-auto mr-2 rounded-full"
           />
@@ -110,7 +111,7 @@ const Navbar = () => {
 const NavbarItems = ({ currentPath, onClick }) => {
   const menuItems = [
     { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
+    { name: "About Us", path: "/pages/AboutUs" },
     { name: "Leadership", path: "/leadership" },
     { name: "Ministries", path: "/ministries" },
     { name: "Media", path: "/media" },
@@ -121,18 +122,20 @@ const NavbarItems = ({ currentPath, onClick }) => {
     <>
       {menuItems.map((item) => (
         <li key={item.path} role="none">
-          <a
-            href={item.path}
-            role="menuitem"
-            onClick={onClick} // Optional onClick for mobile menu
-            className={`px-3 py-2 rounded-md text-lg font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 transition-colors ${
-              currentPath === item.path
-                ? "bg-white text-[#3A6D8C]" // Active page styling
-                : "hover:text-red-500"
-            }`}
-          >
-            {item.name}
-          </a>
+          <Link>
+            <a
+              href={item.path}
+              role="menuitem"
+              onClick={onClick} // Optional onClick for mobile menu
+              className={`px-3 py-2 rounded-md text-lg font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 transition-colors ${
+                currentPath === item.path
+                  ? "bg-white text-[#3A6D8C]" // Active page styling
+                  : "hover:text-red-500"
+              }`}
+            >
+              {item.name}
+            </a>
+          </Link>
         </li>
       ))}
     </>

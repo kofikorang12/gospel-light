@@ -23,7 +23,7 @@ const ContactPage = () => {
     <div
       className="pt-24 pb-12 bg-cover bg-center min-h-screen"
       style={{
-        backgroundImage: 'url("public/images/watch night.jpg")', // Full-page background image
+        backgroundImage: 'url("/images/watch night.jpg")', // Full-page background image
       }}
     >
       <div className="container mx-auto px-4">

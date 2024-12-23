@@ -2,8 +2,8 @@
 
 const events = [
   {
-    title: "Christmas Carol",
-    date: "December 24, 2024",
+    title: "End of year Thanksgiving Service",
+    date: "December 29, 2024",
     description: "Join us for a special evening of carols and celebration.",
   },
   {

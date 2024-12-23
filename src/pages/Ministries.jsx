@@ -7,49 +7,49 @@ const ministries = [
   {
     title: "Youth Ministry",
     description: "Our youth ministry is aimed at guiding the next generation.",
-    img: "public/images/img7.jpg",
+    img: "/images/img7.jpg",
   },
   {
     title: "Children Ministry",
     description:
       "We focus on building the foundation of faith for children. lished fact that a  like",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
 
   {
     title: "Junior Youth Ministry",
     description: "Helping young teens find their purpose in faith.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
   {
     title: "Women Ministry",
     description: "Empowering women through community and service.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
   {
     title: "Men’s Ministry",
     description: "Encouraging men to be leaders in faith and family.",
-    img: "public/images/eld-riky.jpg",
+    img: "/images/eld-riky.jpg",
   },
   {
     title: "Evangelism Ministry",
     description: "Spreading the gospel through outreach and service.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
   {
     title: "Church Choir",
     description: "Spreading the gospel through outreach and service.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
   {
     title: "Media",
     description: "Spreading the gospel through outreach and service.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
   {
     title: "Band stand",
     description: "Spreading the gospel through outreach and service.",
-    img: "public/images/img5.jpg",
+    img: "/images/img5.jpg",
   },
 ];
 

@@ -19,7 +19,7 @@ const leaders = [
     img: "/images/img7.jpg",
   },
   {
-    name: "Jane Doe",
+    name: "Elder Sarah Adjetey",
     role: "President of Womens Fellowship ",
     img: "/images/sofomaame-lead.jpg",
   },

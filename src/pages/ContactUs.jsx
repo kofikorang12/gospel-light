@@ -112,7 +112,7 @@ const ContactPage = () => {
                 Aboma-Teshie, Behind Presby, Accra-Ghana
               </p>
               <p className="text-lg mb-4 font-medium">
-                Phone: +233 (0) 573 942 475
+                Phone: +233 (0) 552 310 649
               </p>
               <iframe
                 title="Location Map"
@@ -129,7 +129,7 @@ const ContactPage = () => {
               data-aos="fade-left" // AOS animation on picture
             >
               <img
-                src="public/images/great.jpg"
+                src="/images/great.jpg"
                 alt="Church Location"
                 className="w-full h-64 object-cover"
               />

@@ -19,7 +19,7 @@ const leaders = [
     img: "/images/img7.jpg",
   },
   {
-    name: "Elder Sarah Adjetey",
+    name: "Mrs. Catherine Armah-Oblie",
     role: "President of Womens Fellowship ",
     img: "/images/sofomaame-lead.jpg",
   },

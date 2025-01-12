@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -121,8 +122,8 @@ const NavbarItems = ({ currentPath, onClick }) => {
     <>
       {menuItems.map((item) => (
         <li key={item.path} role="none">
-          <a
-            href={item.path}
+          <Link
+            to={item.path}
             role="menuitem"
             onClick={onClick} // Optional onClick for mobile menu
             className={`px-3 py-2 rounded-md text-lg font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 transition-colors ${
@@ -132,7 +133,7 @@ const NavbarItems = ({ currentPath, onClick }) => {
             }`}
           >
             {item.name}
-          </a>
+          </Link>
         </li>
       ))}
     </>

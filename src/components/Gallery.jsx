@@ -68,16 +68,18 @@ import { useEffect, useRef, useState } from "react";
 import { FiDownload } from "react-icons/fi";
 
 const galleryImages = [
-  { src: "src/assets/images/sofo.jpg", alt: "Church Event 1" },
-  { src: "src/assets/images/sofomaame.jpg", alt: "Church Event 2" },
-  { src: "src/assets/images/jef.jpg", alt: "Church Event 3" },
-  { src: "src/assets/images/mama.jpg", alt: "Church Event 6" },
-  { src: "src/assets/images/img4.jpg", alt: "Church Event 4" },
-  { src: "src/assets/images/sof3.jpg", alt: "Church Event 5" },
-  { src: "src/assets/images/band.jpg", alt: "Church Event 6" },
-  { src: "src/assets/images/img8.jpg", alt: "Church Event 4" },
-  { src: "src/assets/images/preci.jpg", alt: "Church Event 5" },
-  { src: "src/assets/images/sec.jpg", alt: "Church Event 6" },
+  { src: "/images/sofo.jpg", alt: "Church Event 1" },
+  { src: "/images/sofomaame.jpg", alt: "Church Event 2" },
+  { src: "/images/jef.JPG", alt: "Church Event 3" },
+  { src: "/images/mama.jpg", alt: "Church Event 6" },
+  { src: "/images/img4.jpg", alt: "Church Event 4" },
+  { src: "/images/sof3.jpg", alt: "Church Event 5" },
+  { src: "/images/band.jpg", alt: "Church Event 6" },
+  { src: "/images/img8.jpg", alt: "Church Event 4" },
+  { src: "/images/preci.jpg", alt: "Church Event 5" },
+  { src: "/images/sec.jpg", alt: "Church Event 6" },
+  { src: "/images/divine.jpg", alt: "Church Event 7" },
+  { src: "/images/img7.jpg", alt: "Church Event 8" },
 ];
 
 const Gallery = () => {

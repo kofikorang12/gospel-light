@@ -6,26 +6,26 @@ const allNewsArticles = [
     title: "Church Expands Outreach Program",
     content: "Our church has expanded its outreach...",
     img: "/images/img5.jpg",
-    date: "Sept 10, 2023",
+    date: "Sept 10, 2024",
   },
   {
     title: "Miss Akwaaba Thanksgiving Service",
     content: "A new sermon series has been announced...",
     img: "/images/akw.jpg",
-    date: "Jul 18, 2022",
+    date: "Jul 18, 2024",
   },
   {
     title: "Annual Youth Conference Held",
     content: "The annual youth conference brought together young minds...",
     img: "/images/img5.jpg",
-    date: "Aug 22, 2023",
+    date: "Aug 22, 2024",
   },
 
   {
     title: "New Sermon Series Announced",
     content: "A new sermon series has been announced...",
     img: "/images/img5.jpg",
-    date: "Jul 1, 2023",
+    date: "Jul 1, 2024",
   },
   // Add more articles here...
 ];

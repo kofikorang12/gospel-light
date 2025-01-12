@@ -2,18 +2,20 @@
 
 const events = [
   {
-    title: "End of year Thanksgiving Service",
-    date: "December 29, 2024",
-    description: "Join us for a special evening of carols and celebration.",
+    title: "14 DAYS PRAYER & FASTING",
+    date: "January 13, 2025",
+    description:
+      "Join us for 14 days of fasting and prayer starting January 13th. Seek God’s guidance, strengthen your faith, and grow spiritually together as a church community..",
   },
   {
-    title: "Watch Night Service",
-    date: "December 31, 2024",
-    description: "Welcome the new year with worship and fellowship.",
+    title: "EASTER GAMES",
+    date: "April 19, 2025",
+    description:
+      "Get ready for an exciting Easter Games event for the entire church family! Join us on April 19, 2025, for a day filled with fun, fellowship, and celebration. Don’t miss this joyful gathering of faith and community!",
   },
   {
-    title: "Easter Celebration",
-    date: "April 17, 2025",
+    title: "EASTER SUNDAY SERVICE",
+    date: "April 20, 2025",
     description: "Celebrate the resurrection of Jesus with us.",
   },
 ];

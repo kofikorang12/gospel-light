@@ -129,7 +129,7 @@ const ContactPage = () => {
               data-aos="fade-left" // AOS animation on picture
             >
               <img
-                src="/images/great.jpg"
+                src="/images/divine.jpg"
                 alt="Church Location"
                 className="w-full h-64 object-cover"
               />

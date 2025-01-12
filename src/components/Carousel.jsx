@@ -10,7 +10,7 @@ const slides = [
     description: "Join us for worship this and every Sunday.",
   },
   {
-    src: "/images/great.jpg",
+    src: "/images/divine.jpg",
     alt: "Slide 2",
     transition: "slide",
     title: "Our Mission",
